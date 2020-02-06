@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap&subset=cyrillic,latin-ext,vietnamese");
+html {
+    scroll-behavior: smooth;
+}
+
+.logo a img {
+    height: 80px;
+    width: auto;
+}
+
+.mm-navbar__title {
+    display: none;
+}
+
+.tp-caption {
+    line-height: initial !important;
+    font-size: 60px !important;
+    text-align: center !important;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.tp-caption a{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 60px;
+}
+
+
+.tp_m_title{
+    font-size: 30px !important;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fa {
+    text-align: center;
+}
+
+.google-map {
+    height: 400px;
+    width: 500px;
+}
+
+.google-map-room {
+    width: 350px;
+    height: 300px;
+}
+
+#rev-slider-img-1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../images/slider/slider1.jpg);
+}
+
+.crossfade::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: #000;
+    opacity: .4;
+}
+
+#phong h4 {
+    color: #fff;
+}
+
+#lienhe h4 {
+    
+    color: #fff;
+}
+
+.brand-info-owl .owl-next, .brand-info-owl .owl-prev{
+   display: none;
+}
+
+.section-title.sm h4{
+    font-size: 68px;
+
+}
+
+h6{
+    color: #f14851;
+}
+
+.btn-restaurant{
+    background-color: #000;
+    padding: 15px 60px;
+}
+.btn-restaurant:hover{
+    background-color: rgb(49, 49, 49);
+}
+
+.widget-help{
+    background-image: linear-gradient(to right, rgba(0,0,0, .5), rgba(0,0,0, .5)), url(../images/about-card.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.widget-title{
+    color: #fff !important;
+}
+
+.widget-help a{
+    color: #fff !important;
+}
+
+.fa.fa-check{
+    margin-right: 20px;
+}
+
+section.restaurant{
+    background-image: linear-gradient(to right bottom, rgba(237, 27, 36, .7), rgba(237, 27, 36, .7)), url(../images/slider/slider13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
